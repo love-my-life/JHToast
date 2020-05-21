@@ -1,0 +1,16 @@
+PODS:
+  - JHToast (0.1.0)
+
+DEPENDENCIES:
+  - JHToast (from `../`)
+
+EXTERNAL SOURCES:
+  JHToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JHToast: 6c7ceb611f176404f56b291510c5d0a9a043e6e7
+
+PODFILE CHECKSUM: a4b2bc80081a5946802ee94bd31de101d5f9c265
+
+COCOAPODS: 1.9.1

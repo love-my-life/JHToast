@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JHToast
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func show(_ sender: Any) {
+        JHToast.showToast(text: "是打工的家啊好风光拉黑是健康", type: .center)
+    }
+    
 }
 
